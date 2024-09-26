@@ -1,11 +1,11 @@
 ###
-POST http://192.168.111.61:8089/register-node?
+POST http://localhost:8081/register-node?
     host=1.2.3.4&
     port=8080&
     name=SoyLegenda
 
 ###
-POST http://192.168.111.61:8089/play
+POST http://localhost:8080/play
 Content-Type: application/json
 
 {
